@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBitMinds - Price Guess</title>
+    <link rel="stylesheet" href="guesspriceCSS.css">
+</head>
+<body>
+    <header>
+        <h1>TheBitMinds</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="price_guess.html">Price Guess</a>
+            <a href="create_account.html">Create Account</a>
+            <a href="login.html">Login</a>
+            <a href="bitcoin_price.html">Bitcoin Price</a>
+            <a href="mining_bitcoin.html">Mining Bitcoin</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h2>Price Guess</h2>
+        <div class="description">
+            <p>Welcome to the magical realm of Bitcoin price predictions! As the bull and bear spirits dance in the mystical market, let us gaze into the crystal ball...</p>
+            <p>Based on the cosmic alignment and the whispers of the ancient Bitcoin oracles, we predict that if the bulls prevail, the Bitcoin price will soar between 89,000 and 92,000 Canadian dollars by the end of April. However, should the bears seize control, the price may dip to the depths of 38,000 to 45,000 Canadian dollars.</p>
+            <p>Our prediction is not mere conjecture but a result of profound mathematical divination, combining Fibonacci retracement, Elliott Wave theory, and planetary alignments.</p>
+        </div>
+        
+        <div class="input-container">
+            <h3>Anonymous Guessing</h3>
+            <form id="guess-form">
+                <label for="low-price">Low Price Guess (CAD):</label>
+                <input type="number" id="low-price" name="low-price" required>
+                <br>
+                <label for="high-price">High Price Guess (CAD):</label>
+                <input type="number" id="high-price" name="high-price" required>
+                <br>
+                <button type="submit">Submit Guess</button>
+            </form>
+        </div>
+        
+        <div class="user-guesses">
+            <h3>Anonymous User Guesses</h3>
+            <ul id="guess-list"></ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 TheBitMinds. All rights reserved.
+    </footer>
+
+    <script src="guessprice.js"></script>
+</body>
+</html>
